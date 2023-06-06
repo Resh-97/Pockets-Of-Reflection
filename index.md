@@ -16,7 +16,7 @@ Thereafter, got selected into the University's Startup Accelerator Progam, where
 I'm someone who loves diving into new technologies and is never shy of getting my hands dirty. I am the best at work when I collaborate, brainstorm ideas, and continuously learn new things. 
 
 **Interests:** Affective Computing and Generative AI.<br/>
-**What am I upto?:** Honing my skills in Generative AI and putting together articles and projects to build a comprehensive guide to Generative AI. <br/> 
+**What am I upto?:** Building a comprehensive guide to Generative AI. <br/> 
 **Career Update:** I am actively seeking Machine Learning/Deep Learning research engineer roles. <br/>
 
 Checkout my resume or reach me at reshma.ab0018@gmail.com.
