@@ -12,7 +12,7 @@ I graduated in MSc. Artificial Intelligence from the University of Southampton l
 Thereafter, got selected into the University's Startup Accelerator Progam, where I build an AI-powered SaaS learning solution. Previously, I have worked at corporate consultancy and startups in Comms-Media, EdTech and FinTech giving me over 4 years’ practical experience in AI and 3 years in software development. <br/>
 
 **Interests:** Affective Computing and Generative AI.<br/>
-**I'm best at work when I:** Collaborate, brainstorm ideas and learn new things. I love diving into new technologies and is never shy of getting my hands dirty.<br/> 
+**I'm best at work when I:** Collaborate, brainstorm and learn new things. I love diving into new technologies and never shy from getting my hands dirty.<br/> 
 **What am I upto?:** Building a comprehensive guide to Generative AI for anyone trying to hone their skills in the field.<br/> 
 **Career Update:** I am actively seeking Machine Learning/Deep Learning research engineer roles. Also, available for volunteering and mentoring work.<br/>
 
