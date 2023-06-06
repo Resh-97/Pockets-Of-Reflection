@@ -73,7 +73,7 @@ In GAN model, we create a generative model that takes a random sample data and p
 **b) Using Variational Autoencoder**:
 In VAE model, the encoder compresses the real dataset into a compact form and transmits it to the decoder. The decoder then generates an output which is a representation of the real dataset. The system is trained by optimizing the correlation between input and output data.
 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/GAN.jpg" width="450"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/VAE.png" width="450"/>
+<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/GAN.jpg" width="400"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/VAE.png" width="400"/>
 Figure (3a): **Generative Adversarial Networks (course:** [**AI Multiple**](https://research.aimultiple.com/synthetic-data-generation/)**)** Figure (3b): **Variational Autoencoders (course:** [**Towards data science**](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)**)**
 
 **2\. 3D Rendering-based methods
