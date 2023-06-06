@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Synthetic Data for Computer Vision-Have you given it a thought?
-date:   2020-06-14
+date:   2021-06-14
 subtitle: A window into the field of synthetic data generation for computer vision.
 tags: synthetic-data, tag5
 splash_img_source: /assets/img/synthetic-data-splash.jpg
