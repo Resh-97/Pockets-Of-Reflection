@@ -1,7 +1,6 @@
 title: Reshma Abraham # Shown in header on pages with full_logo: true
 short_logo: Reshma Abraham # Shown in header on all pages by default unless full_logo: true is set
-description: > # The description for your site
-  Personal Website.
+description: Personal Website.
 url: "https://resh-97.github.io/Pockets-Of-Reflection/" # Site base URL
 
 author:
