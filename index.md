@@ -8,7 +8,7 @@ sitemap:
   priority: 1.0
 ---
 <p class="describe-text">Hello, I'm an AI engineer.</p>
-<img align="right" width="300" height="300" src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/Claimer.jpg">
+<img class="image1" align="right" width="300" height="300" src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/Claimer.jpg">
 
 I graduated in MSc. Artificial Intelligence from the University of Southampton last december. My MSc. Dissertation on Multi-task Learning for Student Affective State Recognition fetched me a Distinction. <br/>
 
