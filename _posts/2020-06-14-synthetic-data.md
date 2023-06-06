@@ -3,7 +3,7 @@ layout: post
 title:  Synthetic Data for Computer Vision: Have you given it a thought?
 date:   2020-06-14
 updated: 
-tags: [synthetic-data, tag5]
+tags: synthetic-data, tag5
 splash_img_source: /assets/img/traffic-332857_1920.jpg
 splash_img_caption: Representative image. Image by <a href="https://pixabay.com/users/jonbonsilver-236141/">jonbonsilver</a> on Pixabay.
 ---
