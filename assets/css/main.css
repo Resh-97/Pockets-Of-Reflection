@@ -27,7 +27,13 @@ h6 {
 img {
   border-radius: 0.25rem;
   display: block;
-  /*width: 100%;*/
+  
+}
+
+.image1
+{
+  border-radius: 0.25rem;
+  display: block;
 }
 
 code {
@@ -297,6 +303,7 @@ a.logo:hover {
 
 .splash-img {
   filter: brightness(98%);
+  width: 100%;
 }
 
 .caption {
