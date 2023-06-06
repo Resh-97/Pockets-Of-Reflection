@@ -12,7 +12,7 @@ Synthetic Data for Computer Vision: Have you given it a thought?
 
 A window into the field of synthetic data generation for computer vision.
 -------------------------------------------------------------------------
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/synthetic-data-splash.jpg" width="70%"/>
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/synthetic-data-splash.jpg" width="70%"/></center>
 Source: [Analytics India magazine](https://analyticsindiamag.com/how-synthetic-data-sets-can-improve-computer-vision-models/)
 
 Earlier this year, I had a conversation with a manager at Cognizant heading the deep learning guild team. His team creates proofs-of-concept (_pilot projects to demonstrate a business opportunity_) using deep learning algorithms. One of the major challenges that he noticed his team faced was getting data for such POCs. Acquiring well-represented data specific to a problem was arduous. Additionally, utilizing real-world data to test if the system is providing the desired output was impossible in most cases as it imposed privacy-related issues. As we concluded the conversation, he indicated that a possible solution is to generate synthetic data and that his team had started looking into it. This conversation was my introduction to “Synthetic Data”.
@@ -31,7 +31,7 @@ From my research, I realized that the lack of high-quality correctly annotated d
 
 Synthetic Data is the data generated through computer programs. These programs can be generative deep learning algorithms (_GAN’s, VAE’s, Autoregressive models_) or CGI and gaming engines producing 3D simulations (_Unreal, Unity, Blender to name a few_). Synthetic data for computer vision can be RGB images, segmentation maps, depth images, stereo-pairs, LiDAR or Infrared images**.**
 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/BlenderProc.png" width="70%"/>
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/BlenderProc.png" width="70%"/></center>
 Figure1 : Synthetic RGB image, depth image, surface normal, semantic labels (Source: [BlenderProc](https://sim2real.github.io/assets/papers/2020/BlenderProc.png))
 
 To build robust, high performing deep learning models you need a bulk amount of annotated data. You’ll be surprised to know that in most cases these models don’t require realistic training images to perform well. They prefer diversity in data over photorealism, especially for object detection. However, segmentation tasks require a high degree of texture realism since segmentation models rely heavily on texture.
@@ -73,7 +73,7 @@ In GAN model, we create a generative model that takes a random sample data and p
 **b) Using Variational Autoencoder**:
 In VAE model, the encoder compresses the real dataset into a compact form and transmits it to the decoder. The decoder then generates an output which is a representation of the real dataset. The system is trained by optimizing the correlation between input and output data.
 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/GAN.jpg" width="400"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/VAE.png" width="400"/>
+<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/GAN.jpg" width="100"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/VAE.png" width="100"/>
 Figure (3a): **Generative Adversarial Networks (course:** [**AI Multiple**](https://research.aimultiple.com/synthetic-data-generation/)**)** Figure (3b): **Variational Autoencoders (course:** [**Towards data science**](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)**)**
 
 **2\. 3D Rendering-based methods
@@ -100,7 +100,7 @@ Brace yourself as we take a step further to take a look at a technique used to e
 *   **Domain Randomization**
     In this technique, synthetic data is randomized and made more diverse by creating variations in the rendering or 3-D scene. This forces the network to learn to focus on the essential features of the image. An example of this technique is randomly placing distractor objects in 3D scenes.
 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/disractor-images.jpg" width="70%"/>
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/disractor-images.jpg" width="70%"/></center>
 Figure 3: Circled in red are the distractor objects (Source: [https://arxiv.org/pdf/1804.06516.pdf](https://arxiv.org/pdf/1804.06516.pdf))
 
 **Summary:**
