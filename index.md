@@ -8,7 +8,7 @@ sitemap:
   priority: 1.0
 ---
 <p class="describe-text">Hello, I'm an AI engineer with over 4 years of experience in AI.</p>
-I graduated in MSc. Artificial Intelligence from the University of Southampton last December. My MSc Dissertation on Multi-task Learning for Student Affective State Recognition fetched me a Distinction. <br/>
+I graduated in MSc. Artificial Intelligence from the University of Southampton last december. My MSc. Dissertation on Multi-task Learning for Student Affective State Recognition fetched me a Distinction. <br/>
 Thereafter, got selected into the University's Startup Accelerator Progam, where I build an AI-powered SaaS learning solution. Previously, I have worked at corporate consultancy and startups in Comms-Media, EdTech and FinTech giving me over 4 years’ practical experience in AI and 3 years in software development. <br/>
 
 **Interests:** Affective Computing and Generative AI.<br/>
