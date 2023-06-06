@@ -31,8 +31,8 @@ From my research, I realized that the lack of high-quality correctly annotated d
 --------------------------------------------
 
 Synthetic Data is the data generated through computer programs. These programs can be generative deep learning algorithms (_GAN’s, VAE’s, Autoregressive models_) or CGI and gaming engines producing 3D simulations (_Unreal, Unity, Blender to name a few_). Synthetic data for computer vision can be RGB images, segmentation maps, depth images, stereo-pairs, LiDAR or Infrared images**.**
-
-Figure1 : Synthetic RGB image, depth image, surface normal, semantic labels (Source: [BlenderProc](https://sim2real.github.io/assets/papers/2020/denninger.pdf))
+![BlenderProc](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/BlenderProc.png) 
+Figure1 : Synthetic RGB image, depth image, surface normal, semantic labels (Source: [BlenderProc](https://sim2real.github.io/assets/papers/2020/BlenderProc.png))
 
 To build robust, high performing deep learning models you need a bulk amount of annotated data. You’ll be surprised to know that in most cases these models don’t require realistic training images to perform well. They prefer diversity in data over photorealism, especially for object detection. However, segmentation tasks require a high degree of texture realism since segmentation models rely heavily on texture.
 
