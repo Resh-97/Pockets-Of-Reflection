@@ -52,7 +52,7 @@ When I initially started reading about synthetic data, a doubt that popped in my
 
 Data Augmentation is a technique extensively used by DL and CV engineers to modify real data by rotating the image a few degrees, zooming in a bit or flipping the image. This technique creates variations of existing images in the dataset and can be viewed as a cheap alternative to generate more labelled data.
 
-<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2a.png" width="50%"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2c-cat.jpg" width="50%"/>
+<img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2a.png" width="100"/> <img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2c-cat.jpg" width="100"/>
 **Figure (2a):** Original input image. **Figure(2b):** Augmented images of the dog. **Figure(2c):** Target object-Dog on a different background. (**Source for Fig (2a) & (2b)**: [Towards Data Science](https://towardsdatascience.com/image-augmentation-14a0aafd0498), **Source for Fig (2c):** [Google Images](https://www.google.com/imgres?imgurl=https%3A%2F%2Finstant-bollywood-1.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2021%2F04%2F25055744%2Funnamed-2.jpg&imgrefurl=https%3A%2F%2Fwww.instantbollywood.com%2Funnamed-21%2F&tbnid=IMMswbIeSZ32gM&vet=10CA8QxiAoAWoXChMIoJfvwNGU8QIVAAAAAB0AAAAAEAc..i&docid=UzCNXmGBe0bFqM&w=900&h=900&itg=1&q=dog&hl=en&ved=0CA8QxiAoAWoXChMIoJfvwNGU8QIVAAAAAB0AAAAAEAc))
 
 But what if our target object appears on different backgrounds, under different lighting conditions or in different contexts as shown in Figure(2c).
