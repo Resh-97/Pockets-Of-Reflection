@@ -4,17 +4,9 @@ title:  Synthetic Data for Computer Vision-Have you given it a thought?
 date:   2020-06-14
 subtitle: A window into the field of synthetic data generation for computer vision.
 tags: synthetic-data, tag5
-splash_img_source: /assets/img/traffic-332857_1920.jpg
-splash_img_caption: Representative image. Image by <a href="https://pixabay.com/users/jonbonsilver-236141/">jonbonsilver</a> on Pixabay.
+splash_img_source: /assets/img/synthetic-data-splash.jpg
+splash_img_caption: Source <a href="https://analyticsindiamag.com/how-synthetic-data-sets-can-improve-computer-vision-models/">Analytics India Magazine</a>.
 ---
-
-Synthetic Data for Computer Vision: Have you given it a thought?
-================================================================
-
-A window into the field of synthetic data generation for computer vision.
--------------------------------------------------------------------------
-<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/synthetic-data-splash.jpg" width="90%"/></center>
-Source: [Analytics India magazine](https://analyticsindiamag.com/how-synthetic-data-sets-can-improve-computer-vision-models/)
 
 Earlier this year, I had a conversation with a manager at Cognizant heading the deep learning guild team. His team creates proofs-of-concept (_pilot projects to demonstrate a business opportunity_) using deep learning algorithms. One of the major challenges that he noticed his team faced was getting data for such POCs. Acquiring well-represented data specific to a problem was arduous. Additionally, utilizing real-world data to test if the system is providing the desired output was impossible in most cases as it imposed privacy-related issues. As we concluded the conversation, he indicated that a possible solution is to generate synthetic data and that his team had started looking into it. This conversation was my introduction to “Synthetic Data”.
 
