@@ -13,7 +13,7 @@ Synthetic Data for Computer Vision: Have you given it a thought?
 A window into the field of synthetic data generation for computer vision.
 -------------------------------------------------------------------------
 
-
+![SplashSyntheticData](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/synthetic-data-splash.jpg) 
 Source: [Analytics India magazine](https://analyticsindiamag.com/how-synthetic-data-sets-can-improve-computer-vision-models/)
 
 Earlier this year, I had a conversation with a manager at Cognizant heading the deep learning guild team. His team creates proofs-of-concept (_pilot projects to demonstrate a business opportunity_) using deep learning algorithms. One of the major challenges that he noticed his team faced was getting data for such POCs. Acquiring well-represented data specific to a problem was arduous. Additionally, utilizing real-world data to test if the system is providing the desired output was impossible in most cases as it imposed privacy-related issues. As we concluded the conversation, he indicated that a possible solution is to generate synthetic data and that his team had started looking into it. This conversation was my introduction to “Synthetic Data”.
@@ -52,6 +52,7 @@ When I initially started reading about synthetic data, a doubt that popped in my
 
 Data Augmentation is a technique extensively used by DL and CV engineers to modify real data by rotating the image a few degrees, zooming in a bit or flipping the image. This technique creates variations of existing images in the dataset and can be viewed as a cheap alternative to generate more labelled data.
 
+![2a](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2a.png) ![2c](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/2c-cat.jpg) 
 **Figure (2a):** Original input image. **Figure(2b):** Augmented images of the dog. **Figure(2c):** Target object-Dog on a different background. (**Source for Fig (2a) & (2b)**: [Towards Data Science](https://towardsdatascience.com/image-augmentation-14a0aafd0498), **Source for Fig (2c):** [Google Images](https://www.google.com/imgres?imgurl=https%3A%2F%2Finstant-bollywood-1.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2021%2F04%2F25055744%2Funnamed-2.jpg&imgrefurl=https%3A%2F%2Fwww.instantbollywood.com%2Funnamed-21%2F&tbnid=IMMswbIeSZ32gM&vet=10CA8QxiAoAWoXChMIoJfvwNGU8QIVAAAAAB0AAAAAEAc..i&docid=UzCNXmGBe0bFqM&w=900&h=900&itg=1&q=dog&hl=en&ved=0CA8QxiAoAWoXChMIoJfvwNGU8QIVAAAAAB0AAAAAEAc))
 
 But what if our target object appears on different backgrounds, under different lighting conditions or in different contexts as shown in Figure(2c).
@@ -72,6 +73,7 @@ In GAN model, we create a generative model that takes a random sample data and p
 **b) Using Variational Autoencoder**:
 In VAE model, the encoder compresses the real dataset into a compact form and transmits it to the decoder. The decoder then generates an output which is a representation of the real dataset. The system is trained by optimizing the correlation between input and output data.
 
+![3a](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/GAN.jpg) ![3b](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/VAE.png)
 Figure (3a): **Generative Adversarial Networks (course:** [**AI Multiple**](https://research.aimultiple.com/synthetic-data-generation/)**)** Figure (3b): **Variational Autoencoders (course:** [**Towards data science**](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)**)**
 
 **2\. 3D Rendering-based methods
@@ -98,6 +100,7 @@ Brace yourself as we take a step further to take a look at a technique used to e
 *   **Domain Randomization**
     In this technique, synthetic data is randomized and made more diverse by creating variations in the rendering or 3-D scene. This forces the network to learn to focus on the essential features of the image. An example of this technique is randomly placing distractor objects in 3D scenes.
 
+![3](https://resh-97.github.io/Pockets-Of-Reflection//assets/img/disractor-images.jpg)
 Figure 3: Circled in red are the distractor objects (Source: [https://arxiv.org/pdf/1804.06516.pdf](https://arxiv.org/pdf/1804.06516.pdf))
 
 **Summary:**
