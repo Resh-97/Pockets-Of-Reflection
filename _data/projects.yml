@@ -17,7 +17,7 @@ recognition from facial expressions in the wild.
   tags: [jekyll, open-source]
   
 - name: Human Action Recognition based on Pose Estimation
-  id: p2 # Project id, must be unique amongst the projects
+  id: pl # Project id, must be unique amongst the projects
   img_src: /assets/img/HumanPose.PNG # Optional image
   description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
