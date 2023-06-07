@@ -1,12 +1,17 @@
-- name: Project One # Project name, also used as heading
+- name: Human Action Recognition based on Pose Estimation
   id: p1 # Project id, must be unique amongst the projects
-  img_src: /assets/img/connectpie-page.png # Optional image
-  description_less: This part of the project description is visible at all times. # Description shown at all times, text only
+  img_src: /assets/img/HumanPose.png # Optional image
+  description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
-    <p>This part is only seen when you click on the project card.</p> 
+    <p>
+    The following are the major tasks performed: <br>
+    1. Implementation of Convolutional Neural Network based pose estimation for body landmark detection <br>
+    2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br>
+    3. Preparation and preprocessing of image datasets <br>
+    4. Fine tuning and improvement of the action recognition model with better feature representation and data augmentation <br>
+    5. Development, error analysis and deep learning model improvement </p> 
   action_buttons: > # Action buttons for project, HTML only
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
   tags: [tag1, tag2] # A list of tags
 
 - name: Pudina Fresh Jekyll Theme
