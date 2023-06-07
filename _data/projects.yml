@@ -1,13 +1,13 @@
 - name: Human Action Recognition based on Pose Estimation
   id: p1 # Project id, must be unique amongst the projects
-  img_src: /assets/img/HumanPose.png # Optional image
+  img_src: /assets/img/HumanPose.PNG # Optional image
   description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
     <p>
     The following are the major tasks performed: <br>
     1. Implementation of Convolutional Neural Network based pose estimation for body landmark detection <br>
     2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br> 
-    **Tech Stack:** Tensorflow 2.2, Object dection, CNN, Transfer Learning, VGG-16, OpenCV, video-processing </p> 
+    <br> <b>Tech Stack:</b> Tensorflow 2.2, Object dection, CNN, Transfer Learning, VGG-16, OpenCV, video-processing </p> 
   action_buttons: > # Action buttons for project, HTML only
     <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
   tags: [tag1, tag2] # A list of tags
