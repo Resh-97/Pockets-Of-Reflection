@@ -1,5 +1,23 @@
+- name: Multi-task Learning for Student Mental State Recognition from Facial Expressions in-the-wild
+  id: p1
+  img_src: assets/img/block diagram.png
+  description_less: This paper proposes three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks for multi-task learning of learner mental state
+recognition from facial expressions in the wild. 
+  description_more: >
+    <p>The contribution of this work is three-fold:
+    1. A Proof-of-Concept(POC) for multi-task video classification of student mental States. The proposed approach predicts the level (very low, low, high and very high) of four student mental states - Engagement, Confusion, Boredom, Frustration.
+    2. Spatio-Temporal analysis of facial features for student affect recognition by combining deep Convolutional Neural Network (CNNs) based feature extractors and sequence learning via LSTMs.
+    3. A study on the performance of three SOTA networks as a feature extractor for online learning problems. The three networks are:
+    * Feature Extractor 1: Inspired by a teacher network proposed by [Schoneveld et al. (2021)] trained on Google FEC dataset and AffectNet dataset.
+    * Feature Extractor 2: ResNet18 pre-trained on ImageNet dataset.
+    * Feature Extractor 3: Inception-ResNet-V1 pre-trained on VGGFace2.</p>
+  action_buttons: >
+    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/tree/main" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/blob/main/Final%20Dissertation%20Full.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Report</a>
+  tags: [jekyll, open-source]
+  
 - name: Human Action Recognition based on Pose Estimation
-  id: p1 # Project id, must be unique amongst the projects
+  id: p2 # Project id, must be unique amongst the projects
   img_src: /assets/img/HumanPose.PNG # Optional image
   description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
@@ -11,17 +29,6 @@
   action_buttons: > # Action buttons for project, HTML only
     <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
   tags: [tag1, tag2] # A list of tags
-
-- name: Pudina Fresh Jekyll Theme
-  id: pf
-  img_src: 
-  description_less: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
-  description_more: >
-    <p>This site uses Pudhina Fresh theme.</p>
-  action_buttons: >
-    <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [jekyll, open-source]
 
 - name: Project Two
   id: p2
