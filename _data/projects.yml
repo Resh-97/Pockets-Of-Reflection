@@ -1,4 +1,15 @@
-
+- name: Multi-task Learning for Student Mental State Recognition from Facial Expressions in-the-wild
+  id: p1
+  img_src: assets/img/block diagram.png
+  description_less: This paper proposes three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks for multi-task learning of learner mental state
+recognition from facial expressions in the wild. 
+  description_more: >
+    <p></p>
+  action_buttons: >
+    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/tree/main" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/blob/main/Final%20Dissertation%20Full.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Report</a>
+  tags: [jekyll, open-source]
+  
 - name: Human Action Recognition based on Pose Estimation
   id: pl # Project id, must be unique amongst the projects
   img_src: /assets/img/HumanPose.PNG # Optional image
