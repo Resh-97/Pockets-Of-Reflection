@@ -4,7 +4,6 @@
   description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
     <p>
-    <br>
     The following are the major tasks performed: <br>
     1. Implementation of Convolutional Neural Network based pose estimation for body landmark detection <br>
     2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br> 
