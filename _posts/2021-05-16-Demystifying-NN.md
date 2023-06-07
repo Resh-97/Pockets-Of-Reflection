@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Demystifying Hidden Units in Neural Networks through Network DissectionDemystifying Hidden Units in Neural Networks through Network Dissection
+title:  Demystifying Hidden Units in Neural Networks through Network Dissection
 date:   2021-05-16
 subtitle: Researchers at MIT’s CSAIL elucidate the thought process behind neural network predictions through their fascinating paper <a href=“http://netdissect.csail.mit.edu/”>Network Dissection- Quantifying Interpretability of Deep Visual Representations</a>.
 tags: [tag4, tag5]
