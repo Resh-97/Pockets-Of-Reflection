@@ -1,7 +1,7 @@
 - name: Multi-task Learning for Student Mental State Recognition from Facial Expressions in-the-wild
   id: p1
-  img_src: assets/img/Block diagram.png
-  description_less: This paper proposes three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks for multi-task learning of learner mental state recognition from facial expressions in the wild. 
+  img_src: assets/img/Block diagram.jpg
+  description_less: This project proposes three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks for multi-task learning of learner mental state recognition from facial expressions in the wild. 
   description_more: >
     <p>The contribution of this work is three-fold:
     1. A Proof-of-Concept(POC) for multi-task video classification of student mental States. The proposed approach predicts the level (very low, low, high and very high) of four student mental states - Engagement, Confusion, Boredom, Frustration.
@@ -11,7 +11,7 @@
     * Feature Extractor 2: ResNet18 pre-trained on ImageNet dataset.
     * Feature Extractor 3: Inception-ResNet-V1 pre-trained on VGGFace2.</p>
   action_buttons: >
-    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/tree/main" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/tree/main" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp View Project</a>
     <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/blob/main/Final%20Dissertation%20Full.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Report</a>
   tags: [jekyll, open-source]
   
@@ -26,19 +26,20 @@
     2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br> 
     <br> <b>Tech Stack:</b> Tensorflow 2.2, Object dection, CNN, Transfer Learning, VGG-16, OpenCV, video-processing </p> 
   action_buttons: > # Action buttons for project, HTML only
-    <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp View Project</a>
   tags: [tag1, tag2] # A list of tags
 
-- name: Project Two
+- name: MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data
   id: p2
-  img_src: 
-  description_less: Refer to docs to learn how to add your own projects.
+  img_src: assets/img/Time-series.jpg
+  description_less: This repository is an attempt to reproduce the 2021 NeurIPS paper "MixSeq: Connecting Macroscopic Time Series Forecasting with Microscopic Time Series Data". Original paper: https://arxiv.org/pdf/2110.14354.pdf
   description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>This project analyses and describes the attempt to reproduce the paper, MixSeq. It was our team submission to the COMP6248 Reproducibility Challenge 2022.
+    <br>
+    Under the assumption that macroscopic time series follow a mixture distribution, the authors hypothesise that lower variance of constituting latent mixture components could improve the estimation of macroscopic time series. We learned the challenges of reimplementing the proposed model, and as a result, we developed our own implementation based on this conjecture to prove its validity.</p>
   action_buttons: >
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
   tags: [tag3, docs]
 
 - name: Project Three
