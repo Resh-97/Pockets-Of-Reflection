@@ -16,7 +16,7 @@ Researchers from MIT’s CSAIL propose a technique called “[Network Dissection
 
 In the past, observations of hidden units have shown that human-interpretable concepts sometimes emerge in individual units within networks. For example, [**object detector units have been observed within scene classification networks**](https://arxiv.org/pdf/1412.6856.pdf) and [**part detectors have emerged in visual recognition tasks**](https://arxiv.org/pdf/1607.03738.pdf)**.**
 
-Using  ‘Network Dissection’, the authors evaluate the emergence of such concept detectors in deep networks, quantify the interpretability of individual units in CNNs and attempt to answer the question - ‘_Do CNNs learn disentangled features? ’.
+Using  ‘Network Dissection’, the authors evaluate the emergence of such concept detectors in deep networks, quantify the interpretability of individual units in CNNs and attempt to answer the question - ‘_Do CNNs learn disentangled features? ’.<br>
 Note: Disentangled features are narrowly defined hidden units that encode specific real world concepts._
 
 Network Dissection Method:
@@ -33,7 +33,8 @@ To identify ground truth exemplars for a broad set of visual concepts, the autho
 
 > **_The Broadly and Densely Labeled Dataset_** _(_**_Broden_**_)_ unifies several densely labeled image data sets: [ADE](https://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf) , [Open Surfaces](https://www.cs.cornell.edu/~sbell/pdf/siggraph2014-intrinsic.pdf) , [Pascal-Context](https://www.cs.toronto.edu/~urtasun/publications/mottaghi_et_al_cvpr14.pdf) , [Pascal-Part](https://arxiv.org/pdf/1406.2031.pdf) and [Describable Textures Dataset](https://www.robots.ox.ac.uk/~vgg/publications/2014/Cimpoi14/cimpoi14.pdf). These data sets contain examples of a broad range of objects, scenes, object parts, textures, and materials in a variety of contexts.
 
-Figure: A sample of the types of labels in the Broden dataset. ( Figure from [Bau & Zhou et. al (2017)](http://netdissect.csail.mit.edu/final-network-dissection.pdf) )
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/BrodenDataset.png" width="70%"/></center>
+Figure: A sample of the types of labels in the Broden dataset. (Figure from <a href="http://netdissect.csail.mit.edu/final-network-dissection.pdf">Bau & Zhou et. al (2017)</a>)
 
 There are around 60,00 images in the Broden dataset and annotations spanning 1197 visual concepts. Images are pixel-wise labelled for most visual concepts, except texture and scene where individual labels are given for the full image. Additionally, every image pixel is labelled with one of the 11 common color names. This way every image will get an annotation mask, **L**\_c for every visual concept, **c**.
 
@@ -48,7 +49,7 @@ To gather the response of individual units to concepts, images from the Broden d
 2.  Calculate the distribution of activation, **a\_**k, over all images. **a\_**k is a real valued map.
 3.  To convert it into a binary map, compute a top quantile threshold **T\_**k , such that P(**a\_**k >**T\_**k)=0.005. This means 0.5% of all activations of unit ‘**k**’ for image **x** is greater than **T\_**k.
 4.  Generally, deeper into the NN , smaller the size of the activation map. In order to obtain a binary segmentation map, use bilinear interpolation to scale the lower-resolution activation maps, **A**\_k(**x**) to the image resolution resulting in **S**\_k(**x**).
-5.  Binarize the activation map: A new mask, **M**\_k(**x**)=**S**\_k(**x**)≥**T**\_k(**x**), is obtained such that a pixel is on or off depending on whether it exceeds the activation threshold **T**\_k.
+5.  Binarize the activation map: A new mask, **M**\_k(**x**)=**S**\_k(**x**)≥**T**\_k(**x**), is obtained such that a pixel is on or off depending on whether it exceeds the activation threshold **T**\_k.<br>
     _Note: These activation masks mark the highly activated areas._
 
 **3: Quantify activation−concept alignment.**
@@ -58,12 +59,14 @@ Now we have human-labelled concept mask, **L**\_c (from step 1) and activation m
 
 This is done by comparing the activation masks with all labeled concepts. We quantify the alignment between activation mask, **M**\_k and concept mask, **L**\_c with the **Intersection over Union (IoU)** score.
 
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/IoU.png" /></center>
 Figure: **Intersection over Union (IoU)** score formula.
 
 **IoU score** =( Number of pixels identified by both the masks as concept **c** ) **/**
 ( Total number of unique pixels identified as concept **c**)
 
-Figure: Example of how **IoU Score** is computed. (Source: [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/cnn-features.html#network-dissection))
+<center><img src="https://resh-97.github.io/Pockets-Of-Reflection//assets/img/AreaOfUnion.png" width="70%"/></center>
+Figure: Example of how **IoU Score** is computed. (Source:<a href="https://christophm.github.io/interpretable-ml-book/cnn-features.html#network-dissection">Interpretable Machine Learning</a>)
 
 > The value of **IoU**\_(k,c) is the accuracy of unit **k** in detecting concept **c.** We consider **k** as a detector of concept **c** if the **IoU score exceeds a threshold.**
 
