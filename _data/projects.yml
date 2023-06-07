@@ -32,7 +32,7 @@
 - name: MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data
   id: p2
   img_src: assets/img/Time-series.jpg
-  description_less: This repository is an attempt to reproduce the 2021 NeurIPS paper "MixSeq: Connecting Macroscopic Time Series Forecasting with Microscopic Time Series Data". Original paper: https://arxiv.org/pdf/2110.14354.pdf
+  description_less: This repository is an attempt to reproduce the 2021 NeurIPS paper "MixSeq - Connecting Macroscopic Time Series Forecasting with Microscopic Time Series Data". Original paper: https://arxiv.org/pdf/2110.14354.pdf
   description_more: >
     <p>This project analyses and describes the attempt to reproduce the paper, MixSeq. It was our team submission to the COMP6248 Reproducibility Challenge 2022.
     <br>
