@@ -1,6 +1,6 @@
 - name: Multi-task Learning for Student Mental State Recognition from Facial Expressions in-the-wild
   id: p1
-  img_src: assets/img/block diagram.png
+  img_src: assets/img/Block diagram.png
   description_less: This paper proposes three novel Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) hybrid networks for multi-task learning of learner mental state recognition from facial expressions in the wild. 
   description_more: >
     <p>The contribution of this work is three-fold:
