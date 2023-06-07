@@ -5,7 +5,7 @@ date:   2021-05-16
 subtitle: Researchers at MIT’s CSAIL elucidate the thought process behind neural network predictions through their fascinating paper <a href=“http://netdissect.csail.mit.edu/”>Network Dissection- Quantifying Interpretability of Deep Visual Representations</a>.
 tags: [tag4, tag5]
 splash_img_source: /assets/img/UnsplashDemystifying.png
-splash_img_caption: Photo by <a href="https://unsplash.com/@alinnnaaaa">Alina Grubnyak</a> on Unsplash.
+splash_img_caption: Photo by <a href="https://unsplash.com/@alinnnaaaa" width="70%">Alina Grubnyak</a> on Unsplash.
 ---
 Have you ever wondered how Neural Networks (NN) arrive at predictions once it’s trained? Wouldn’t it be interesting to dissect NN and find out what the hidden units have learned? How do you think hidden units contribute to NN predictions post training? Well, one has plenty of time to think of such intricacies of deep networks when one’s model goes on training. Alas, how can a novice in deep learning put a probe on the hidden units and interpret them. So, I naturally discarded these thoughts until I stumbled upon the paper “[Network Dissection: Quantifying Interpretability of Deep Visual Representations](http://netdissect.csail.mit.edu/final-network-dissection.pdf)”.
 
