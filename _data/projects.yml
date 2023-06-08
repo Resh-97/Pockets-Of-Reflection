@@ -42,7 +42,7 @@
     <a href="https://github.com/Resh-97/MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data/blob/main/Report.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
   tags: [tag3, docs]
 
-- name: Scene-Recognition-Spatial-Pyramid-Matching
+- name: Scene Recognition Spatial Pyramid Matching
   id: p3
   img_src: /assets/img/SceneRecognition.png
   description_less: Multi-class Logistic Regression Classifier with Spatial Pyramid Matching for Feature Extraction
