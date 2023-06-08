@@ -27,9 +27,10 @@
     <a href="https://github.com/Resh-97/MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
     <a href="https://github.com/Resh-97/MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data/blob/main/Report.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
   tags: [tag3, docs]
+  
 - name: Scene Recognition Spatial Pyramid Matching
   id: p3
-  img_src: /assets/img/SceneRecognition.png
+  img_src: assets/img/SceneRecognition.png
   description_less: Multi-class Logistic Regression Classifier with Spatial Pyramid Matching for Feature Extraction
   description_more: >
     <p> 
@@ -41,21 +42,10 @@
     <a href="https://github.com/Resh-97/Scene-Recognition-Spatial-Pyramid-Matching/blob/master/comp6223_CW3.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
   tags: [tag2, tag4]
   
-  - name: test
-  id: p4
-  img_src: /assets/img/weatherpie-page.png
-  description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
-  description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag2, tag4]
-  
-  - name: test
+   
+- name: test
   id: p5
-  img_src: /assets/img/weatherpie-page.png
+  img_src: assets/img/SceneRecognition.png
   description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
