@@ -15,7 +15,7 @@
     <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/blob/main/Final%20Dissertation%20Full.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Report</a>
   tags: [jekyll, open-source]
   
-- name: MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data
+- name: MixSeq Connecting Macroscopic Time-Series Forecasting with Microscopic Time-Series Data
   id: p2
   img_src: assets/img/Time-series.jpg
   description_less: This repository is an attempt to reproduce the 2021 NeurIPS paper "MixSeq - Connecting Macroscopic Time Series Forecasting with Microscopic Time Series Data". 
