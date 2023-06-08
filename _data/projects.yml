@@ -15,20 +15,6 @@
     <a href="https://github.com/Resh-97/Multi-task-Learning-for-Student-Mental-State-Recognition/blob/main/Final%20Dissertation%20Full.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Report</a>
   tags: [jekyll, open-source]
   
-- name: Human Action Recognition based on Pose Estimation
-  id: pl # Project id, must be unique amongst the projects
-  img_src: /assets/img/HumanPose.PNG # Optional image
-  description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
-  description_more: > # Description shown only when the project card is expanded, HTML only
-    <p>
-    The following are the major tasks performed: <br>
-    1. Implementation of Convolutional Neural Network based pose estimation for body landmark detection <br>
-    2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br> 
-    <br> <b>Tech Stack:</b> Tensorflow 2.2, Object dection, CNN, Transfer Learning, VGG-16, OpenCV, video-processing </p> 
-  action_buttons: > # Action buttons for project, HTML only
-    <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp View Project</a>
-  tags: [tag1, tag2] # A list of tags
-
 - name: MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data
   id: p2
   img_src: assets/img/Time-series.jpg
@@ -57,7 +43,7 @@
   tags: [tag2, tag4]
   
   - name: test
-  id: p3
+  id: p4
   img_src: /assets/img/weatherpie-page.png
   description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
   description_more: >
@@ -69,7 +55,7 @@
   tags: [tag2, tag4]
   
   - name: test
-  id: p3
+  id: p5
   img_src: /assets/img/weatherpie-page.png
   description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
   description_more: >
@@ -79,3 +65,17 @@
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
   tags: [tag2, tag4]
+
+- name: Human Action Recognition based on Pose Estimation
+  id: pl # Project id, must be unique amongst the projects
+  img_src: /assets/img/HumanPose.PNG # Optional image
+  description_less: Aim of this project is to automatically recognize human actions based on analysis of the body landmarks using pose estimation. # Description shown at all times, text only
+  description_more: > # Description shown only when the project card is expanded, HTML only
+    <p>
+    The following are the major tasks performed: <br>
+    1. Implementation of Convolutional Neural Network based pose estimation for body landmark detection <br>
+    2. Implementation of pose features-based action recognition and its improvement using graphical feature representation and data augmentation of body landmarks <br> 
+    <br> <b>Tech Stack:</b> Tensorflow 2.2, Object dection, CNN, Transfer Learning, VGG-16, OpenCV, video-processing </p> 
+  action_buttons: > # Action buttons for project, HTML only
+    <a href="https://github.com/Resh-97/Human-Action-Recognition-based-on-Pose-Estimation-" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp View Project</a>
+  tags: [tag1, tag2] # A list of tags
