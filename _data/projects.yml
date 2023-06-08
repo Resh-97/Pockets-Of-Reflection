@@ -38,11 +38,37 @@
     <br>
     Under the assumption that macroscopic time series follow a mixture distribution, the authors hypothesise that lower variance of constituting latent mixture components could improve the estimation of macroscopic time series. We learned the challenges of reimplementing the proposed model, and as a result, we developed our own implementation based on this conjecture to prove its validity.</p>
   action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
+    <a href="https://github.com/Resh-97/MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com/Resh-97/MixSeq-Connecting-Macroscopic-Time-Series-Forecasting-with-Microscopic-Time-Series-Data/blob/main/Report.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
   tags: [tag3, docs]
 
-- name: Project Three
+- name: Scene-Recognition-Spatial-Pyramid-Matching
+  id: p3
+  img_src: /assets/img/SceneRecognition.png
+  description_less: Multi-class Logistic Regression Classifier with Spatial Pyramid Matching for Feature Extraction
+  description_more: >
+    <p> 
+    Most approaches can be separated into two distinct sub-classes of problems, feature extraction from images and multiclass classification in a high dimensional feature space. This project provides an empirical analysis of three approaches to this problem.
+    <br> First, the performance of a k-Nearest Neighbour classifier using features derived from a low-resolution image representation (’tiny image’) is evaluated. The performance of this classifier can be superseded by an ensemble of 15 one-vs-all classifiers trained on a visual bag of words lexicon derived from raw image pixels.
+    <br> Finally, a multi-class logistic regression classifier coupled with features extracted by spatial pyramid matching outperforms each of the aforementioned methods.</p>
+  action_buttons: >
+    <a href="https://github.com/Resh-97/Scene-Recognition-Spatial-Pyramid-Matching/tree/master" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="https://github.com/Resh-97/Scene-Recognition-Spatial-Pyramid-Matching/blob/master/comp6223_CW3.pdf" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Report</a>
+  tags: [tag2, tag4]
+  
+  - name: test
+  id: p3
+  img_src: /assets/img/weatherpie-page.png
+  description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
+  description_more: >
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  action_buttons: >
+    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
+    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
+  tags: [tag2, tag4]
+  
+  - name: test
   id: p3
   img_src: /assets/img/weatherpie-page.png
   description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
